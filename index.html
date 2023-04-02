@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:wght@500&family=Underdog&display=swap"
+      rel="stylesheet"
+    />
+    <title>GemsGems</title>
+  </head>
+  <body>
+    <header>
+      <ul id="menu">
+        <li class="menu-bar"><a href="#" id="new-game">Новая игра</a></li>
+        <li class="menu-bar"><a href="#" id="rules">Правила</a></li>
+        <li class="menu-bar"><a href="#" id="records">Рекорды</a></li>
+      </ul>
+    </header>
+    <div id="rulesPlate" class="any-info">
+      <p>
+        Собирайте одинаковые кристаллы по горизонтали или вертикали (3 и более)
+      </p>
+      <p>Группы из одинаковых кристаллов исчезают и счет увеличивается</p>
+      <p>Наберите как можно больше очков за оставшиеся ходы</p>
+    </div>
+    <div id="recordsTable" class="any-info records"></div>
+    <div id="game-over-wrapper">
+      <div id="game-over">
+        ИГРА ОКОНЧЕНА
+        <br />
+        <input type="text" id="playerName" />
+        <input type="button" id="playerNameBtn" value="Введите ваше имя" />
+      </div>
+    </div>
+    <div class="game-wrapper">
+      <div id="game"></div>
+    </div>
+    <script src="https://fe.it-academy.by/JQ/jquery.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
