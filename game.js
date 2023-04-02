@@ -827,7 +827,7 @@ function clearField() {
 }
 
 // Добавляем аудио
-const fadeAudio = new Audio('../media/remove_sound.mp3');
+const fadeAudio = new Audio('media/remove_sound.mp3');
 
 // Запускаем звук и разу останавливаем
 function soundInit() {

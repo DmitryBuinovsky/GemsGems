@@ -76,7 +76,7 @@ tr:nth-child(even) {
 }
 tr:nth-child(2) td:first-of-type::before {
   content: '';
-  background-image: url(../images/golden-rank.png);
+  background-image: url(images/golden-rank.png);
   background-size: 23px 23px;
   display: inline-block;
   width: 23px;
@@ -84,7 +84,7 @@ tr:nth-child(2) td:first-of-type::before {
 }
 tr:nth-child(3) td:first-of-type::before {
   content: '';
-  background-image: url(../images/silver-rank.png);
+  background-image: url(images/silver-rank.png);
   background-size: 23px 23px;
   display: inline-block;
   width: 23px;
@@ -92,7 +92,7 @@ tr:nth-child(3) td:first-of-type::before {
 }
 tr:nth-child(4) td:first-of-type::before {
   content: '';
-  background-image: url(../images/bronze-rank.png);
+  background-image: url(images/bronze-rank.png);
   background-size: 23px 23px;
   display: inline-block;
   width: 23px;
